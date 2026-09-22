@@ -1,0 +1,74 @@
+# Binaries and build outputs
+/bin/
+/dist/
+/build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
+
+# Output of the go coverage tool
+*.out
+coverage.txt
+coverage.html
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Dependency directories (remove if you check in vendor)
+# /vendor/
+
+# Environment and sensitive configuration files
+.env
+.env.*
+!.env.example
+*.local.yaml
+*.local.yml
+*.local.json
+
+# Logs and runtime artifacts
+*.log
+/logs/
+/tmp/
+/temp/
+
+# IDEs and Editors
+# GoLand / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+cmake-build-*/
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Other Editors
+*~
+*.swp
+*.swo
+
+# Operating System Files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+[Nn]e[Tt][Uu]ser.dat*
